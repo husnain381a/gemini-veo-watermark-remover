@@ -125,7 +125,8 @@ This project is designed with **privacy-first principles**:
 - **Express.js** – API handling
 - **FFmpeg** – Frame-level video processing
 - **fluent-ffmpeg** – FFmpeg orchestration
-- **Multer** – Secure video uploads
+- **Cloudinary SDK** – Cloud media management & processing
+- **Multer** – Secure temporary file handling 
 
 ### Frontend (Interface)
 - **React.js** – User interface
@@ -136,7 +137,7 @@ This project is designed with **privacy-first principles**:
 
 ## Technical Limitations
 
-- Maximum supported file size: **50MB**
+- Maximum supported file size: **90MB**
 - Designed for **visible, overlay-based watermarks**
 - Assumes watermark position is static
 - Extremely long or 4K videos may hit free-tier limits
