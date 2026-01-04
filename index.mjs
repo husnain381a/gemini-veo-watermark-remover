@@ -53,7 +53,7 @@ const upload = multer({
 });
 
 // ==========================================
-// PROCESS ROUTE (CLOUDINARY)
+// PROCESS ROUTE
 // ==========================================
 app.post("/process-video", upload.single("video"), async (req, res) => {
   if (!req.file) return res.status(400).json({ error: "No video uploaded" });
